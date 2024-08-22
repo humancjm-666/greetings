@@ -14,7 +14,7 @@ func Hello(name string) (string, error) {
     }
 
     var message string
-    message = fmt.Sprintf("Hi, %v. Welcome!", name)
+    message = fmt.Sprintf(randomFormat(), name)
     return message, nil
 }
 
