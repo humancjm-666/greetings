@@ -15,6 +15,9 @@ func Hello(name string) (string, error) {
 
     var message string
     message = fmt.Sprintf(randomFormat(), name)
+
+    // 验证 go test   FAIL: TestHelloName
+    //message = fmt.Sprint(randomFormat())
     return message, nil
 }
 
