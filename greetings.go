@@ -21,6 +21,7 @@ func Hello(name string) (string, error) {
     return message, nil
 }
 
+
 // Hellos 返回一个 map，该地图将每个已命名的人员 与问候消息相关联。
 func Hellos(names [] string) (map[string] string, error) {
     // 将名称与消息关联的map.
