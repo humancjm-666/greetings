@@ -18,6 +18,7 @@ func Hello(name string) (string, error) {
 
     // 验证 go test   FAIL: TestHelloName
     //message = fmt.Sprint(randomFormat())
+    //cjm
     return message, nil
 }
 
